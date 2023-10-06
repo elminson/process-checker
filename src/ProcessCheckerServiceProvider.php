@@ -19,7 +19,7 @@ class ProcessCheckerServiceProvider extends PackageServiceProvider
             ->name('process-checker')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_process-checker_table')
+            ->hasMigration('create_process_checker_table')
             ->hasCommand(ProcessCheckerCommand::class);
     }
 }
